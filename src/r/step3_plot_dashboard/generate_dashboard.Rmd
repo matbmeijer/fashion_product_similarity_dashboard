@@ -4,9 +4,9 @@ output:
   flexdashboard::flex_dashboard:
     orientation: columns
     vertical_layout: fill
-    css: gold/ressources/theme-dashboard.css
-    logo: gold/ressources/jumper_small.png
-    favicon: gold/ressources/jumper.ico
+    css: ressources/theme-dashboard.css
+    logo: ressources/jumper_small.png
+    favicon: ressources/jumper.ico
     navbar:
       - { title: "Github", icon: "fa-github", href: "https://github.com/matbmeijer", target: "Github"}
 params:

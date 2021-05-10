@@ -137,7 +137,7 @@ will execute all *.R* files within the *./src* folder.
 
 -   Raw input files are saved within the *./raw* folder
 -   Intermediate trasnformations are save within the *./silver* folder
--   The output, the dashboard, is saved within the *./gold* folder
+-   The output, the dashboard, is saved within the *./docs* folder
 
 ## Further information about Fashion & Convolutional Networks
 

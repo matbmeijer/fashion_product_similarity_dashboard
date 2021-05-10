@@ -32,8 +32,8 @@ rds:
     dashboard_datatable: "silver/dashboard_datatable.rds"
 
 html:
-  gold:
-    dashboard_html: "gold/index.html"
+  docs:
+    dashboard_html: "docs/index.html"
 
 log:
   log_file: "logs/%s.json"
@@ -41,7 +41,7 @@ folders:
   raw: "raw"
   images: "raw/images"
   silver: "silver"
-  gold: "gold"
+  docs: "docs"
   logs: "logs"
 
 pandoc_location: "C:/Program Files/RStudio/bin/pandoc"

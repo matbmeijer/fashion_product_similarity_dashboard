@@ -48,8 +48,8 @@ if(!file.exists(scripts$folders$silver)){
   dir.create(scripts$folders$silver)
 }
 
-if(!file.exists(scripts$folders$gold)){
-  dir.create(scripts$folders$gold)
+if(!file.exists(scripts$folders$docs)){
+  dir.create(scripts$folders$docs)
 }
 
 if(!file.exists(scripts$folders$logs)){

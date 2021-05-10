@@ -31,7 +31,7 @@ generate_datatable(matrix = scripts$rds$silver$distance_matrix,
 
 
 render_dashboard(rmd_file = file.path(home_path, scripts$rmd$html_dashboard),
-                 dashboard_dir = file.path(home_path, scripts$html$gold$dashboard_html),
+                 dashboard_dir = file.path(home_path, scripts$html$docs$dashboard_html),
                  favicon = file.path(home_path, scripts$ressources$favicon),
                  logo = file.path(home_path, scripts$ressources$logo),
                  css = file.path(home_path, scripts$ressources$css),
