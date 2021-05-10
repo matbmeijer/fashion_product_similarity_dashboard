@@ -1,5 +1,5 @@
 ---
-title: "Image Similarity Analysis"
+title: "Fashion Product Similarity Dashboard"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -8,9 +8,9 @@ output:
     logo: ressources/jumper_small.png
     favicon: ressources/jumper.ico
     navbar:
-      - { title: "Github", icon: "fa-github", href: "https://github.com/matbmeijer", target: "Github"}
+      - { title: "Github", icon: "fa-github", href: "https://github.com/matbmeijer/fashion_product_similarity_dashboard", target: "Github"}
 params:
-    directory: "C:/Users/03739660/OneDrive - Mango/documents/r_scripts/image_similarity_analysis/silver/dashboard_datatable.rds"
+    directory: "C:/Users/03739660/OneDrive - Mango/documents/advanced_analytics/r_scripts/fashion_product_similarity_dashboard/silver/dashboard_datatable.rds"
 ---
 
 
@@ -46,4 +46,4 @@ Taking into account that we define similarity by the characterstics that help to
 This is exactly what is used in this case:
 The weights of the pretrained VGG16 model trained on the [Imagenet Dataset](https://www.image-net.org/) are used. As we are not interested in the classification of the product, but the dimensionality that determine the cassification, a global average pooling will be applied to the output of the last convolutional block to define a dimensional space for each fashion item.
 
-For further information visit the [Github repository](https://github.com/matbmeijer/image_similarity_analysis)
+For further information visit the [Github repository](https://github.com/matbmeijer/fashion_product_similarity_dashboard)
