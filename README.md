@@ -1,13 +1,13 @@
-Image Similarity Analysis
+Fashion Product Similarity Dashboard
 ================
 
 ## Introduction
 
-The .R module **Image Similarity Analysis** is a simple workflow to show
-an introductory starting point to identify product similarities solely
-based on a product image. To see the full output, visit the following
-link: [Image Similarity
-Dashboard](https://matbmeijer.github.io/image_similarity_analysis/)
+The .R module **Fashion Product Similarity Dashboard** is a simple
+workflow to show an introductory starting point to identify product
+similarities solely based on a product image. To see the full output,
+visit the following link: [Fashion Product Similarity
+Dashboard](https://matbmeijer.github.io/fashion_product_similarity_dashboard/)
 ![Dashboard example](ressources/dashboard_example.png)
 
 ## Inputs
