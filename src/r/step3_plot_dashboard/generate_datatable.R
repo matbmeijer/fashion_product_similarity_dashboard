@@ -48,7 +48,7 @@ generate_datatable <- function(matrix,
     container = sketch,
     escape = FALSE,
     rownames = FALSE,
-    extensions = c('Responsive','Buttons'),
+    extensions = c('Buttons'),
     options = list(
 
       scrollY = "600px",
