@@ -54,7 +54,8 @@ generate_datatable <- function(matrix,
       scrollY = "600px",
       dom = 'Bfrtip',
       buttons = list(list(extend='excel', filename="ImageSimilarity"), list(extend='pdf', filename = "ImageSimilarity"))
-    )
+    ),
+    fillContainer = TRUE
   )
 
 
