@@ -31,19 +31,17 @@ tbl
 ### General Information
 
 #### Data
-The images were scraped from the fashion retailer [C&A](https://www.c-and-a.com/es/es/shop). The fashion retailer was chosen because it has an image of each product without any person/model and white background, making the images quite homogeneous. The [robots.txt](https://www.c-and-a.com/robots.txt) file as been checked to ensure no infringements are done during scraping.
+The images were scraped from the fashion retailer [C&A](https://www.c-and-a.com/es/es/shop). The fashion retailer was chosen because it has an image for each fashion item (Style Color) without any person/model and white background, making the images quite homogeneous. The [robots.txt](https://www.c-and-a.com/robots.txt) file has been checked to ensure no infringements are done during scraping. The images were scraped with Selenium.
 
 #### Methodology
 
-Image similarity is a subjective term, as it is difficult to determine similarity on which terms: quality, visual similarity, form, color? At the same time, the importance of each aspect might be different for every person.
+Image similarity is a subjective term, as it is difficult to determine similarity in quantitative terms: 
+What makes two fashion items similar? Is it color, fitting, quality, form? Every indivual might value these characterists' importance differently.
 
-The following methodology approaches this problem in simple terms: similarity is defined by the visual characteristics that help to determine the categorization of a fashion product.
+The following methodology approaches this problem in a pragmatic manner: fashion item similarity is defined by the visual characteristics that help to determine the categorization of a fashion product. Yet, it is important to note is that there is no **ground truth** for product similarity.
 
-An important point to note is that there is no **ground truth** for product similarity.
+Taking into account that we define similarity by the characterstics that help to determine the categorization of a product, categorization algorithms might be helpful to determine a dimensional space for the fashion item images.
 
-Taking into account that we define similarity by the characterstics that help to determine the categorization of a product, a neural network for product categorization might be helpful in some way.
-
-This is exactly what is used in this case:
-The weights of the pretrained VGG16 model trained on the [Imagenet Dataset](https://www.image-net.org/) are used. As we are not interested in the classification of the product, but the dimensionality that determine the cassification, a global average pooling will be applied to the output of the last convolutional block to define a dimensional space for each fashion item.
+In the following case, the pretrained weights of the VGG16 neural network model structure trained on the [Imagenet Dataset](https://www.image-net.org/) are used. As we are not interested in the classification of the product, but the dimensionality that determine the cassification, a global average pooling will be applied to the output of the last convolutional block to define a dimensional space for each fashion item.
 
 For further information visit the [Github repository](https://github.com/matbmeijer/fashion_product_similarity_dashboard)
