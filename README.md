@@ -5,8 +5,9 @@ Fashion Product Similarity Dashboard
 
 The .R module **Fashion Product Similarity Dashboard** is a simple
 workflow to show an introductory starting point to identify product
-similarities solely based on a product image. To see the full output,
-visit the following link: [Fashion Product Similarity
+similarities based solely on a fashion item product image - no
+additional data is used. To see the full output, visit the following
+link: [Fashion Product Similarity
 Dashboard](https://matbmeijer.github.io/fashion_product_similarity_dashboard/)
 ![Dashboard example](ressources/dashboard_example.png)
 
@@ -64,11 +65,9 @@ large amount of item variety. Yet some words of caution:
     dimensional space for each image that is especifically trained on
     fashion items.
 3.  This process does not work in the ‘wild’ - as for example Instagram
-    images - fo rthe following reasons:
-
--   Multiple products in same image requires image detection & image
-    segmentation (identify if there are any fashion items in the image,
-    and if so, segment them).
+    images - for the following reasons: Multiple products in same image
+    requires image detection & image segmentation (identify if there are
+    any fashion items in the image, and if so, segment them).
 
 Last but not least, a distance matrix is calculated on the dimensional
 space of all items and the top 5 nearest neigbours identified (KD Tree
