@@ -1,0 +1,14 @@
+dplyr
+stringr
+glue
+tidyr
+FNN
+DT
+yaml
+loggit
+rvest
+binman
+RSelenium
+keras
+rmarkdown
+flexdashboard

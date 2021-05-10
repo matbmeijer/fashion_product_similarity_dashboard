@@ -1,0 +1,9 @@
+.httr-oauth
+raw/*
+silver/*
+.Rhistory
+.Rproj.user
+.Rhistory/
+.Rhistory
+credentials.yaml
+logs

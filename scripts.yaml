@@ -1,0 +1,47 @@
+r:
+  init:
+    - "init.R"
+  step0_utils:
+    - "src/r/step0_utils/utils.R"
+  step1_read_inputs:
+    - "src/r/step1_read_inputs/get_current_style_colors.R"
+    - "src/r/step1_read_inputs/download_images.R"
+  step2_process_inputs:
+    - "src/r/step2_process_inputs/process_current_style_colors.R"
+    - "src/r/step2_process_inputs/get_image_weights.R"
+    - "src/r/step2_process_inputs/calculate_distance_matrix.R"
+  step3_plot_dashboard:
+    - "src/r/step3_plot_dashboard/generate_datatable.R"
+    - "src/r/step3_plot_dashboard/render_dashboard.R"
+
+rmd:
+  html_dashboard: "src/r/step3_plot_dashboard/generate_dashboard.Rmd"
+
+ressources:
+  favicon: "ressources/jumper.ico"
+  logo: "ressources/jumper_small.png"
+  css: "ressources/theme-dashboard.css"
+
+rds:
+  raw:
+    current_style_colors: "raw/current_style_colors.rds"
+  silver:
+    current_style_colors: "silver/current_style_colors.rds"
+    image_weights: "silver/image_weights.rds"
+    distance_matrix: "silver/distance_matrix.rds"
+    dashboard_datatable: "silver/dashboard_datatable.rds"
+
+html:
+  gold:
+    dashboard_html: "gold/index.html"
+
+log:
+  log_file: "logs/%s.json"
+folders:
+  raw: "raw"
+  images: "raw/images"
+  silver: "silver"
+  gold: "gold"
+  logs: "logs"
+
+pandoc_location: "C:/Program Files/RStudio/bin/pandoc"
