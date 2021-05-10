@@ -5,7 +5,10 @@ Image Similarity Analysis
 
 The .R module **Image Similarity Analysis** is a simple workflow to show
 an introductory starting point to identify product similarities solely
-based on a product image.
+based on a product image. To see the full output, visit the following
+link: [Image Similarity
+Dashboard](https://matbmeijer.github.io/image_similarity_analysis/)
+![Dashboard example](ressources/dashboard_example.png)
 
 ## Inputs
 
